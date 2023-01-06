@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container-lg">
+    <h2>Job Hazard Analysis (JHA) Form</h2>
+    <br>
+   
+    <form id="formBody">
+      <input class="form-control" type="text" placeholder="Project Name / Job Code: " aria-label="default">
+        <div class="input-group">
+            <input type="text" aria-label="job-title" class="form-control" placeholder="Title of Job / Task: ">
+            <input type="text" aria-label="Last name" class="form-control" placeholder="Revision:">
+          </div>
+          <div class="input-group">
+            <input type="text" aria-label="job-title" class="form-control" placeholder="Person Completing this JHA:  ">
+            <input type="date" aria-label="Last name" class="form-control" placeholder="Date Completed">
+          </div>
+          <div class="container-lg" style="background-color: gainsboro;"><h3>Recommended Personal Protective Equipment (PPE)
+            </h3><h4> Check all personal protective equipment required to safely perform the job or task</h4>
+          </h3>
+          </div>
+            <!-- group 1 -->
+            <section id="topCheckBoxes">
+          <div class="form-check-inline" style="margin-right: 3px;">
+            <input class="form-check-input" id="first" type="checkbox" value="" aria-label="checkbox">
+            <label class="form-check-label" for="flexCheckDefault">
+             Head Protection
+            </label>
+          </div>
+          <div class="form-check-inline" style="margin-right: 1px;">
+            <input class="form-check-input"  type="checkbox" value="" aria-label="checkbox">
+            <label class="form-check-label" for="flexCheckChecked">
+              Foot Protection
+            </label>
+          </div>
+          <div class="form-check-inline"  style="margin-right: 1px;">
+            <input class="form-check-input" type="checkbox" value="" aria-label="checkbox">
+            <label class="form-check-label" for="flexCheckDefault">
+             Eye Protection
+            </label>
+          </div>
+          <div class="form-check-inline"  style="margin-right: 1px;">
+            <input class="form-check-input" type="checkbox" value="" aria-label="checkbox">
+            <label class="form-check-label" for="flexCheckChecked">
+              Hearing Protection
+            </label>
+          </div>
+          
+          <div class="form-check-inline" style="margin-right: 1px;">
+            <input class="form-check-input" type="checkbox" value="" aria-label="checkbox">
+            <label class="form-check-label" for="flexCheckDefault">
+              Hand Protection
+            </label>
+          </div>
+          <div class="form-check-inline" style="margin-right: 1px;">
+            <input class="form-check-input" type="checkbox" value="" aria-label="checkbox">
+            <label class="form-check-label" for="flexCheckChecked">
+              Fall Protection
+            </label>
+          </div>
+          <div class="form-check-inline" style="margin-right: 1px;">
+            <input class="form-check-input" type="checkbox" value="" aria-label="checkbox">
+            <label class="form-check-label" for="flexCheckDefault">
+              Respiratory Protection
+            </label>
+          </div>
+          <div class="form-check-inline" style="margin-right: 1px;">
+            <input class="form-check-input" type="checkbox" value="" aria-label="checkbox">
+            <label class="form-check-label" for="flexCheckChecked" aria-autocomplete="both">
+              Other PPE
+            </label>
+          </div>
+        </section>
+
+        <section class="middle">
+          <div class="container" style="background-color: gainsboro; padding: 5px;" ><h3>Hazard Identification - Check all that Apply</h3>
+          </div>
+           
+             
+          
+
+<div class="container">
+  <div class="row">
+    <div class="col" id="topIdCheck">
+      <input class="form-check-input" type="checkbox" value="option3">
+                        <label class="form-check-label" for="">Elevated Work</label>
+                        <input class="form-check-input" type="checkbox" id="" value="option3">
+                        <label class="form-check-label" for="">Electrical LV</label>
+                        <input class="form-check-input" type="checkbox" id="" value="option3">
+                        <label class="form-check-label" for="">Electrical HV</label>
+                        <input class="form-check-input" type="checkbox" id="" value="option3">
+                        <label class="form-check-label" for="">Slippery Surface</label>
+                        <input class="form-check-input" type="checkbox" id="" value="option3">
+                        <label class="form-check-label" for="">RF Exposure</label>
+                        <input class="form-check-input" type="checkbox" id="" value="option3">
+                        <label class="form-check-label" for="">Chemicals</label>
+                        <input class="form-check-input" type="checkbox" id="" value="option3">
+                        <label class="form-check-label" for="">Trip Hazards</label>
+                        <input class="form-check-input" type="checkbox" id="" value="option3">
+                        <label class="form-check-label" for="">Sharp Objects</label>
+                        <input class="form-check-input" type="checkbox" id="" value="option3">
+                        <label class="form-check-label" for="">Falling Objects</label>
+                        <input class="form-check-input" type="checkbox" id="" value="option3">
+                        <label class="form-check-label" for="">Fire Potential</label>
+    </div>                     
+</div>
+</div>
+<div class="container" id="topIdCheckTwo">
+  <div class="row">
+    <div class="col">
+      <input class="form-check-input" type="checkbox" id="" value="option3">
+                        <label class="form-check-label" for="">Traffic</label>
+                        <input class="form-check-input" type="checkbox" id="" label="" value="option3">
+                        <label class="form-check-label" for="">Power tools</label>
+                        <input class="form-check-input" type="checkbox" id="" value="option3">
+                        <label class="form-check-label" for="">High Noise</label>
+                        <input class="form-check-input" type="checkbox" id="" value="option3">
+                        <label class="form-check-label" for="">Moving Equipment</label>
+                        <input class="form-check-input" type="checkbox" id="" value="option3">
+                        <label class="form-check-label" for="">Poor Lighting</label>
+                        <input class="form-check-input" type="checkbox" id="" value="option3">
+                        <label class="form-check-label" for="">Cold/Ice</label>
+                        <input class="form-check-input" type="checkbox" id="" value="option3">
+                        <label class="form-check-label" for="">Lifting Hazard</label>
+                        <input class="form-check-input" type="checkbox" id="" value="option3">
+                        <label class="form-check-label" for="">Silica</label>
+                        <input class="form-check-input" type="checkbox" id="" value="option3">
+                        <label class="form-check-label" for="">Confined Space</label>
+                        <input class="form-check-input" type="checkbox" id="" value="option3">
+                        <label class="form-check-label" for="">Remote Area</label>
+                        <input class="form-check-input" type="checkbox" id="" value="option3">
+                        <label class="form-check-label" for="">Other</label>
+</div>
+</div>
+</div>
+</section>
+
+<section id="checkboxMiddle">
+<table class="table table-bordered table-hover" style="border: 1px solid black;">
+  <thead>
+    <tr>
+      <th scope="col"><h3>Basic Job Steps</h3></th>
+      <th scope="col"><h3>Hazards Present</h3></th>
+      <th scope="col"><h3>Correct and Safe Procedures</h3></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td scope="row">
+        <label for="checkid" style="word-wrap:break-word; padding-top: 45px;">
+          <input id="chk" form-id="checkid" type="checkbox" value:"">Driving and Parking 
+        </label>
+      </td>
+      <td scope="row">
+<li style="padding-top: 15px">Vehicle accident resulting in personal injury</li>
+<li>Criminal activity</li>
+      </td>
+      <td scope="row">
+        <li>
+          Wear seat/shoulder belt(s) at all times
+        </li>
+        <li>
+          Follow safe driving rules/regulations
+        </li>
+        <li>
+          Practice defensive driving
+        </li>
+        <li>
+          Do not obstruct traffic and park only in legal spaces
+        </li>
+        <li>
+          Do not consume alcoholic beverages or other intoxicants prior to or during work
+        </li>
+      </td>
+    </tr>
+    <tr>
+    <td scope="row">
+     
+    </td>
+    <td scope="row">
+      <li style="padding-top: 20px">Criminal Activity</li>
+    </td>
+    <td scope="row">
+      <li>
+        Lock vehicle while unattended
+      </li>
+      <li>
+        Do not leave tools or other valuables in plain sight inside vehicle
+      </li>
+      <li>
+        Park in well lighted areas during night-time hours
+      </li>
+    </td>
+  </tr>
+  <tr>
+    <td scope="row">
+     <label for="checkid" style="word-wrap:break-word; padding-top: 180px">
+      <input id="chk" type="checkbox" value:"">Use of Ladder 
+      </label>
+     </td>
+     <td>
+      <li style="padding-top: 180px">Falls and Cuts</li>
+     </td>
+     <td scope="row">
+      <li>Set ladder on solid, level surfaces</li>
+      <li>When reaching out, keep belt buckle between the side rails of the ladder</li>
+      <li>Do not stand on the top two steps of any step ladder</li>
+      <li>Never use a metal ladder near elecrical conduits or power lines</li>
+      <li>Never use a step ladder leaned up against the wall</li>
+      <li>Extension ladders must extend at least three feet above a roof or landing</li>
+      <li>Set ladders at a 75 degree angle from the ground or floor</li>
+      <li>The horizontal distance between walls and the foot of the ladder, should not exceed 1/4 the ladder's length</li>
+      <li>Never go up or down a ladder with tools in your hand</li>
+      <li>If possible, raise tools with a bucket or rope</li>
+      <li>Always face the ladder , grasp the side rails or rungs with both hands, and take one step at a time</li>
+      <li>No more than one person should be on the ladder at a time</li>
+      <li>Check ladder for obstructions, weak spots, or sharp edges</li>
+      <li>If ladder is found to be unsafe, remove from service immediately</li>
+     </td>
+  </tr>
+  <tr>
+  <td scope="row">
+    <label for="checkid" style="word-wrap:break-word; padding-left: 15px">Heavy Lifting</label>
+<label for="checkid" style="word-wrap:break-word; display: block">
+<input id="chk"  type="checkbox" value:"">Delivering
+</label>
+<label for="checkid" style="word-wrap:break-word; padding-left: 15px">Lifting</label>
+  </td>
+  <td scope="row">
+    <li style="padding-top: 10px">Hand, Back, and Foot Injuries</li>
+    <li>Slipps, Trips, and Falls</li>
+  </td>
+  <td scope="row">
+    <li>Use proper lifting techniques to avoid injury</li>
+    <li>Ask for assistance when moving or lifting heavy materials</li>
+    <li>Use hydraulic lift, jack, or dollies whenever possible</li>
+    <li>Watch for obstacles or slippery surfaces in walk way or paths</li>
+  </td>
+</tr>
+<tr>
+  <td scope="row">
+    <label for="checkid" style="word-wrap:break-word; padding-left: 15px">Walk Testing</label>
+<label for="checkid" style="word-wrap:break-word; display: block">
+<input id="chk"  type="checkbox" value:"">Spot Testing
+</label>
+<label for="checkid" style="word-wrap:break-word; padding-left: 15px">Site Walks</label>
+  </td>
+  <td scope="row">
+    <li style="padding-top: 10px">Tripping Hazards</li>
+    
+  </td>
+  <td scope="row">
+    <li>Inspect immediate area to identify hazards</li>
+    <li>Situational Awareness</li>
+    <li>Watch for obstacles and slippery surfaces in the walk ways or paths</li>
+    <li>Do not enter restricted or hazardous areas</li>
+  </td>
+</tr>
+
+<!-- New Row -->
+<tr>
+  <td scope="row">
+    <label for="checkid" style="word-wrap:break-word; padding-left: 15px; padding-top: 10px"></label>
+<label for="checkid" style="word-wrap:break-word; display: block; padding-top: 20px;">
+<input id="chk"  type="checkbox" value:"">Rooftop Work
+</label>
+<label for="checkid" style="word-wrap:break-word; padding-left: 15px"></label>
+  </td>
+  <td scope="row">
+    <li style="padding-top: 10px">Falls from heights</li>
+    <li>RF Exposure</li>
+    <li>Exposure to Weather Elements</li>
+  </td>
+  <td scope="row">
+    <li>Any work 6' from edge: fall protection (guardrail, fall restraints or fall arrest system) is required</li>
+    <li>Situational awareness- Maintain 15' from rooftop edge</li>
+    <li>Follow NEPA signs, maintain 3' from any antenna; high-powered broadcast antennas even more so</li>
+    <li>Consider present and potential incoming weather conditions</li>
+    <li>Wear RF exposure monitor</li>
+  </td>
+</tr>
+
+<!-- New Row -->
+<tr>
+  <td scope="row">
+    <label for="checkid" style="word-wrap:break-word; padding-left: 15px; padding-top: 90px"></label>
+<label for="checkid" style="word-wrap:break-word; display: block">
+<input id="chk"  type="checkbox" value:"">Use of Hand Tools
+</label>
+<label for="checkid" style="word-wrap:break-word; padding-left: 15px"></label>
+  </td>
+  <td scope="row">
+    <li style="padding-top: 50px">Cuts and Scrapes</li>
+    <li>Contact</li>
+    <li>Ejection Hazards</li>
+  </td>
+  <td scope="row">
+    <li>Wear appropriate PPE (gloves, safety shoes, safety helmets, safety goggles, and hearing protection</li>
+    <li>Hand tools should always be inspected before use </li>
+    <li>Never use hand tools that are rusted, cracked, warped, splintered, loose, damage, or broken</li>
+    <li>Never carry sharp tools such as screwdrivers or chisels in your pocket</li>
+    <li>Only carry sharp tools with the pointed side down, int a tool belt or tool box</li>
+    <li>Do not carry tools up and down a ladder by hand; consider bucket or strong bag</li>
+    <li>Never toss or throw any hand tools to another employee</li>
+    <li>Maintain good housekeeping to prevent slips, trips, or falls while carrying tools</li>
+    <li>Always put tools away when not in use</li>
+    <li>Never leave tools sitting on incline or elevated positions where risk to person or property is evident</li>
+    <li>Damaged or disabled tools should be taken out of use immediately</li>
+  </td>
+</tr>
+
+
+<!-- Nested list and checkboxes -->
+
+<tr>
+  <td>Table 1</td>
+  <td> Table 1
+    <tr>
+      <td>
+        <li>dog</li>
+      </td>
+      <td>table 2</td>
+    </tr>
+    <tr>
+      <td>table</td>
+    </tr>
+  </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+  <td scope="row">
+    <label for="checkid" style="word-wrap:break-word; padding-left: 15px; padding-top: 10px"></label>
+<label for="checkid" style="word-wrap:break-word; display: block; padding-top: 20px;">
+<input id="chk"  type="checkbox" value:"">Using Portable
+</label>
+<label for="checkid" style="word-wrap:break-word; padding-left: 15px; padding-bottom: 40px" >Power Tools</label>
+  </td>
+  <td scope="row">
+    <li style="padding-top: 10px; border-bottom: 1px solid black;">Electric Shock</li>
+    
+
+    </td>
+    
+    
+  </td>
+  <td scope="row">
+    <li>Check all connection, cords, switches</li>
+    <li>Strictly follow manufacturer's instructions </li>
+  </td>
+</tr>
+  
+</tbody>
+
+
+</table>
+
+  <footer id="footer" class="text-center text-lg-start text-white-50" style="background-color: black">
+    <div class="text-center p-3 text-white">Pierson Wireless</div>
+  </footer>
+
+
+
+</form>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <script src="index.js"></script> 
+
+</body>
+</html>
