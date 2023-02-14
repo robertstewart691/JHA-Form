@@ -1,0 +1,15 @@
+.form-control {
+    height: 50px;
+    width: 350px;
+
+}
+#topDivs {
+    width: 400px;
+    
+}
+.order-3 {
+   border: 1px solid black; 
+}
+.form-label {
+    position: 50px;
+}

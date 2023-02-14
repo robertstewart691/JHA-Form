@@ -1,0 +1,50 @@
+#resizable { 
+  background-position: top left; 
+}
+  #resizable, #also 
+  { width: 400px; 
+    height: 50px; 
+    padding: 0.5em; 
+  }
+  #resizable h3, #also h3 { 
+    text-align: center; 
+    margin: 0; 
+  }
+  #also { 
+    margin-top: 1em; 
+  }
+
+body {
+  margin: 20px;
+}
+.container {
+  
+  text-align: center;
+}
+
+#save, .info {
+  display: none;
+}
+
+.info {
+  color: #999;
+}
+
+textarea {
+ min-height: 53px;
+  width: 300px;
+  margin: 0;
+  padding: 2px;
+  resize: vertical; /*change to both */
+}
+tr{
+  border: 1px solid black;
+  text-align: center;
+  height: 30px;
+  background-color: lightgray;
+ 
+}
+th {
+  text-align: center;
+  border: 1px solid black;
+}
